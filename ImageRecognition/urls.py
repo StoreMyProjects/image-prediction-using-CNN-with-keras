@@ -3,5 +3,5 @@ from . import views
 
 urlpatterns = [
     path('', views.index, name='index'),
-    path('imageProcess', views.imageProcess, name='imageProcess')
+    path('processImage', views.processImage, name='processImage')
 ]
